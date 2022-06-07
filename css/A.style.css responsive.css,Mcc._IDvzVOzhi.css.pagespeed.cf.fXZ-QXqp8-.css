@@ -92,6 +92,56 @@ i:before {
 	font-style: italic;
 	color: #6fbbfe;
 }
+
+.image{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.our-process{
+	position: absolute;
+}
+
+.our-process img, h6{
+	position: relative;
+	left: -190px;
+	top: -170px;
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.title h2{
+	font-size: 48px;
+	color: #0b1033;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	padding: 20px;
+	text-align: center;
+}
+
+.title pre{
+
+	font-size: 15px;
+	line-height: 28px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	color: #7c8d93;
+	margin-bottom: 40px;
+	text-align: center;
+
+
+}
+	
+
 .main_menu_area {
 	position: absolute;
 	left: 0;
