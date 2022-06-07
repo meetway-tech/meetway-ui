@@ -101,15 +101,7 @@ i:before {
 
 }
 
-.our-process{
-	position: absolute;
-}
 
-.our-process img, h6{
-	position: relative;
-	left: -190px;
-	top: -170px;
-}
 
 .title{
 	display: flex;
