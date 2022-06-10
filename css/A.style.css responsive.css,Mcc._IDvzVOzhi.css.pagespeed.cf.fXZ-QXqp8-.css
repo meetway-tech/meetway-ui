@@ -120,7 +120,8 @@ i:before {
 	text-align: center;
 }
 
-.title pre{
+.title p{
+	width: 50%;
 
 	font-size: 15px;
 	line-height: 28px;
@@ -130,7 +131,17 @@ i:before {
 	margin-bottom: 40px;
 	text-align: center;
 
+}
 
+@media screen and (max-width: 768px) {
+	
+
+	
+	.title p{
+		width: 100%;
+	}
+
+	
 }
 	
 
@@ -249,7 +260,7 @@ i:before {
 }
 .main_menu_area .navbar .navbar-nav li:hover a,
 .main_menu_area .navbar .navbar-nav li.active a {
-	color: #0b1033;
+	color: #1A77D1;
 }
 /* .main_menu_area.navbar_fixed {
 	position: relative;
@@ -360,7 +371,7 @@ i:before {
 @media (max-width: 991px){
 .main_slider_area {
 	padding: 2rem 2rem;
-	margin-top: 2rem;
+	/* margin-top: 2rem; */
 }
 
 	.main_slider_area .left_section .title{
@@ -2160,6 +2171,11 @@ i:before {
 		padding: 0 15px 0 0;
 		cursor: pointer;
 	}
+
+	.main_menu_area .navbar .navbar-toggler  span{
+	background-color: #1A77D1;
+	}
+
 	.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu {
 		background: transparent;
 		border: none;
@@ -2338,6 +2354,7 @@ i:before {
 	}
 	.c_title h2 {
 		font-size: 32px;
+		padding: .2rem .3rem;
 	}
 	.blog_text {
 		padding: 40px 15px 65px 15px;
