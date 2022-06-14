@@ -3,7 +3,7 @@
     $email = $_POST['subscribe-email'];
     $subject = "New subscriber";
 
-    $mailTo = "karslandev@gmail.com";
+    $mailTo = "info@meetway.tech";
     $headers = "From: ".$email;
     $message = "You have a new subscriber ".$email;
 
