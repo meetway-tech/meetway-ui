@@ -19,6 +19,22 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+
+<style>
+  .ms_p_item .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+</style>
 </head>
 <body>
 
@@ -68,11 +84,21 @@
 <div class="ms_portfolio_inner">
 <div class="ms_p_item wd_25 brand arc photo">
 <img src="img/portfolio/ms-portfolio/xms-p-1.jpg.pagespeed.ic.jz_DgY-2fk.jpg" alt="">
+<div class="content">
+  <h3>Project title</h3>
+  <p>This is a short description.</p>
+  <button>View project</button>
+</div>
 </div>
 <div class="ms_p_item wd_25 brand arc photo">
 <img src="img/portfolio/ms-portfolio/xms-p-2.jpg.pagespeed.ic.292Io0kq1W.jpg" alt="">
+<div class="content">
+  <h3>Project title</h3>
+  <p>This is a short description.</p>
+  <button>View project</button>
 </div>
-<div class="ms_p_item wd_50 brand">
+</div>
+<div class="ms_p_item wd_25 brand">
 <img src="img/portfolio/ms-portfolio/ms-p-3.jpg" alt="">
 </div>
 <div class="ms_p_item wd_25 brand arc photo">
@@ -81,7 +107,7 @@
 <div class="ms_p_item wd_25 brand arc photo">
 <img src="img/portfolio/ms-portfolio/ms-p-5.jpg" alt="">
 </div>
-<div class="ms_p_item wd_50">
+<div class="ms_p_item wd_25">
 <img src="img/portfolio/ms-portfolio/ms-p-6.jpg" alt="">
 </div>
 <div class="ms_p_item wd_25 design arc">
@@ -93,7 +119,7 @@
 <div class="ms_p_item wd_25 design arc">
 <img src="img/portfolio/ms-portfolio/ms-p-9.jpg" alt="">
 </div>
-<div class="ms_p_item wd_25 design arc">
+<div class="ms_p_item wd_25 brand design arc photo">
 <img src="img/portfolio/ms-portfolio/ms-p-10.jpg" alt="">
 </div>
 </div>
@@ -132,12 +158,14 @@
 <div class="f_title">
 <h3>Subscribe to newsletter</h3>
 </div>
-<div class="input-group">
-<input type="text" class="form-control" placeholder="Your e-mail address here" aria-label="Your e-mail address here">
-<span class="input-group-btn">
-<button class="btn btn-secondary submit_btn" type="button">Subscribe</button>
-</span>
-</div>
+<form>
+  <div class="input-group" action="subscribe.php" method="post">
+    <input name="subscribe-email" type="text" class="form-control" placeholder="Your e-mail address here" aria-label="Your e-mail address here">
+    <span class="input-group-btn">
+    <button class="btn btn-secondary submit_btn" type="submit" name="subscribe">Subscribe</button>
+    </span>
+  </div>
+</form>
 </aside>
 </div>
 </div>
